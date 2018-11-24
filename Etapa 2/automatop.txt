@@ -1,4 +1,4 @@
-﻿AUTOMATOP=({Liga,Desliga,Ficha Inserida,Alavanca,7,Diamante,Cereja,Limão,Jackpot,Retira Prêmio,Libera Inserção de Ficha,Exibe Mensagem De Derrota},{q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21,q22,q23,q24},q20,q0)
+﻿AUTOMATOP=({Liga,Desliga,Ficha Inserida,Alavanca,7,Diamante,Cereja,Limão,Jackpot,Retira Prêmio,Libera Inserção de Ficha,Exibe Mensagem de Derrota},{q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13,q14,q15,q16,q17,q18,q19,q20,q21,q22,q23,q24},q20,q20)
 Prog
 (q20,Liga)=q0
 (q0,Desliga)=q20
@@ -48,8 +48,8 @@ Prog
 (q17,Cereja)=q22
 (q17,Diamante)=q22
 (q18,Jackpot)=q6
-(q19,Exibe Mensagem De Derrota)=q21
+(q19,Exibe Mensagem de Derrota)=q21
 (q21,Libera Inserção de Ficha)=q0
-(q22,Exibe Mensagem De Derrota)=q23
+(q22,Exibe Mensagem de Derrota)=q23
 (q23,Libera Inserção de Ficha)=q0
 (q24,Libera Inserção de Ficha)=q0
