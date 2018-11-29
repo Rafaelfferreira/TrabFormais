@@ -221,7 +221,29 @@ def main():
 	nomeArquivo = input()
 	automato = converte(nomeArquivo)
 	reconhecimento(automato)
+	print('\nPressione qualquer tecla para encerrar.')
+	input('').split(" ")[0]
 
 
 if __name__ == "__main__":
 	main()
+	
+	
+	
+	'''
+	Exemplos de palavras que sao aceitas no arquivo automatop.txt:
+
+    Liga,Ficha Inserida,Alavanca,7,Limão,Exibe Mensagem de Derrota,Libera Inserção de Ficha,Desliga
+    Liga,Ficha Inserida,Alavanca,Diamante,Diamante,Diamante,Jackpot,Retira Prêmio,Libera Inserção de Ficha,Desliga
+    Liga,Ficha Inserida,Alavanca,Diamante,Diamante,7,Exibe Mensagem de Derrota,Libera Inserção de Ficha,Ficha Inserida,Alavanca,7,7,Limão,Exibe Mensagem de Derrota,Libera Inserção de Ficha,Desliga
+    Liga,Ficha Inserida,Alavanca,Limão,Limão,Limão,Jackpot,Retira Prêmio,Libera Inserção de Ficha,Ficha Inserida,Alavanca,7,7,7,Jackpot,Retira Prêmio,Libera Inserção de Ficha,Desliga
+    Liga,Ficha Inserida,Alavanca,7,7,Cereja,Exibe Mensagem de Derrota,Libera Inserção de Ficha,Desliga
+
+	Exemplos de palavras que sao rejeitadas no arquivo automatop.txt:
+
+    Liga,Retira Prêmio
+    Libera Inserção De Ficha,Limão,Limão,7,7,Diamante,Alavanca
+    Liga,Ficha Inserida,Retira Prêmio,Desliga
+    Liga,Alavanca,Cereja,Cereja,Cereja,Jackpot,Retira Prêmio,Libera Inserção de Ficha,Desliga
+    Liga,Liga
+	'''
