@@ -192,7 +192,7 @@ window.configure(background="white")
 # bloqueia redimensionamento da janela
 window.resizable(width=False, height=False)
 # define icone da janela
-window.iconbitmap('images/icon.ico')
+window.iconbitmap('images/inf_logo.ico')
 
 
 
